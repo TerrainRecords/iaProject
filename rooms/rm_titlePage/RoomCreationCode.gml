@@ -1,0 +1,1 @@
+global.lastRoom = rm_titlePage;

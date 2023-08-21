@@ -1,0 +1,42 @@
+{
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_bt_back",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+  ],
+  "managed": true,
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_bt_parent","path":"objects/obj_bt_parent/obj_bt_parent.yy",},"propertyId":{"name":"buttonText","path":"objects/obj_bt_parent/obj_bt_parent.yy",},"value":"",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_bt_parent","path":"objects/obj_bt_parent/obj_bt_parent.yy",},"propertyId":{"name":"destination","path":"objects/obj_bt_parent/obj_bt_parent.yy",},"value":"room",},
+  ],
+  "parent": {
+    "name": "buttons",
+    "path": "folders/Objects/buttons.yy",
+  },
+  "parentObjectId": {
+    "name": "obj_bt_parent",
+    "path": "objects/obj_bt_parent/obj_bt_parent.yy",
+  },
+  "persistent": false,
+  "physicsAngularDamping": 0.1,
+  "physicsDensity": 0.5,
+  "physicsFriction": 0.2,
+  "physicsGroup": 1,
+  "physicsKinematic": false,
+  "physicsLinearDamping": 0.1,
+  "physicsObject": false,
+  "physicsRestitution": 0.1,
+  "physicsSensor": false,
+  "physicsShape": 1,
+  "physicsShapePoints": [],
+  "physicsStartAwake": true,
+  "properties": [],
+  "solid": false,
+  "spriteId": {
+    "name": "spr_back",
+    "path": "sprites/spr_back/spr_back.yy",
+  },
+  "spriteMaskId": null,
+  "visible": true,
+}
