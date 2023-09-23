@@ -1,1 +1,1 @@
-global.lastRoom = rm_secondMenu;
+global.lastRoom = rm_management;
