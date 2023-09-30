@@ -44,6 +44,7 @@
     "IDEVersion": "2023.8.1.102",
   },
   "resources": [
+    {"id":{"name":"obj_chara_chosen_1","path":"objects/obj_chara_chosen_1/obj_chara_chosen_1.yy",},},
     {"id":{"name":"spr_char_5","path":"sprites/spr_char_5/spr_char_5.yy",},},
     {"id":{"name":"fnt_role","path":"fonts/fnt_role/fnt_role.yy",},},
     {"id":{"name":"rm_secondMenu","path":"rooms/rm_secondMenu/rm_secondMenu.yy",},},
@@ -84,6 +85,7 @@
     {"id":{"name":"spr_members","path":"sprites/spr_members/spr_members.yy",},},
     {"id":{"name":"spr_char_1","path":"sprites/spr_char_1/spr_char_1.yy",},},
     {"id":{"name":"spr_char_4","path":"sprites/spr_char_4/spr_char_4.yy",},},
+    {"id":{"name":"rm_init","path":"rooms/rm_init/rm_init.yy",},},
     {"id":{"name":"spr_char_9","path":"sprites/spr_char_9/spr_char_9.yy",},},
     {"id":{"name":"placeholder_timelines","path":"sprites/placeholder_timelines/placeholder_timelines.yy",},},
     {"id":{"name":"spr_char_19","path":"sprites/spr_char_19/spr_char_19.yy",},},
@@ -102,6 +104,7 @@
     {"id":{"name":"rm_titlePage","path":"rooms/rm_titlePage/rm_titlePage.yy",},},
   ],
   "RoomOrderNodes": [
+    {"roomId":{"name":"rm_init","path":"rooms/rm_init/rm_init.yy",},},
     {"roomId":{"name":"rm_titlePage","path":"rooms/rm_titlePage/rm_titlePage.yy",},},
     {"roomId":{"name":"rm_secondMenu","path":"rooms/rm_secondMenu/rm_secondMenu.yy",},},
     {"roomId":{"name":"rm_management","path":"rooms/rm_management/rm_management.yy",},},

@@ -24,10 +24,13 @@
     {"name":"inst_15E975FC","path":"rooms/rm_management/rm_management.yy",},
     {"name":"inst_465C864","path":"rooms/rm_management/rm_management.yy",},
     {"name":"inst_7A7D4EE2","path":"rooms/rm_management/rm_management.yy",},
+    {"name":"inst_4ABB8F1D","path":"rooms/rm_management/rm_management.yy",},
   ],
   "isDnd": false,
   "layers": [
-    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_1","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
+    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_1","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4ABB8F1D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_chara_chosen_1","path":"objects/obj_chara_chosen_1/obj_chara_chosen_1.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":128.0,"y":192.0,},
+      ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Assets_1","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_AF2BB84","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_manage","path":"sprites/spr_manage/spr_manage.yy",},"x":992.0,"y":-64.0,},
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_6931E9DE","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"rotation":0.0,"scaleX":0.5,"scaleY":9.5,"spriteId":{"name":"spr_timelineBackground","path":"sprites/spr_timelineBackground/spr_timelineBackground.yy",},"x":1056.0,"y":128.0,},
@@ -71,7 +74,7 @@
   "roomSettings": {
     "Height": 768,
     "inheritRoomSettings": false,
-    "persistent": false,
+    "persistent": true,
     "Width": 1266,
   },
   "sequenceId": null,

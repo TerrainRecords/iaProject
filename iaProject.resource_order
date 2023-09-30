@@ -27,6 +27,7 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"obj_chara_chosen_1","order":1,"path":"objects/obj_chara_chosen_1/obj_chara_chosen_1.yy",},
     {"name":"spr_char_5","order":5,"path":"sprites/spr_char_5/spr_char_5.yy",},
     {"name":"fnt_role","order":2,"path":"fonts/fnt_role/fnt_role.yy",},
     {"name":"rm_secondMenu","order":3,"path":"rooms/rm_secondMenu/rm_secondMenu.yy",},
@@ -60,6 +61,7 @@
     {"name":"spr_members","order":4,"path":"sprites/spr_members/spr_members.yy",},
     {"name":"spr_char_1","order":1,"path":"sprites/spr_char_1/spr_char_1.yy",},
     {"name":"spr_char_4","order":4,"path":"sprites/spr_char_4/spr_char_4.yy",},
+    {"name":"rm_init","order":7,"path":"rooms/rm_init/rm_init.yy",},
     {"name":"spr_char_9","order":9,"path":"sprites/spr_char_9/spr_char_9.yy",},
     {"name":"placeholder_timelines","order":1,"path":"sprites/placeholder_timelines/placeholder_timelines.yy",},
     {"name":"spr_char_19","order":8,"path":"sprites/spr_char_19/spr_char_19.yy",},

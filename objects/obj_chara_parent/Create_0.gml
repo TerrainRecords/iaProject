@@ -35,8 +35,6 @@ mbti = mbti1+mbti2+mbti3+mbti4
 randomize();
 role = choose("Keys", "Guit", "Bass", "Voc", "Perc")
 
-//global.active_members = [false, false, false, false]
-
 original_x = x
 original_y = y
 
@@ -48,27 +46,11 @@ member_struct =
 	mbti : mbti
 };
 
-selected_member_index = 0
-
 activate_button = function() 
 {
-	if(room == rm_members && array_contains(active_members, false))
-	{
-		persistent = true;
-		room = rm_management;
-		self.x = 96;
-		self.y = 224;
-		active_members[selected_member_index] = true;
-		selected_member_index ++;
-		//persistent = false;
-	}
-	else
-	{
-		persistent = false;
-		room = rm_members;
-		self.x = original_x;
-		self.y = original_y;
-		active_members[selected_member_index] = false;
-		selected_member_index --;
-	}
+	room = rm_management;
+	global.active_members[global.selected_member_index] = member_struct;
+	global.selected_member_index ++;
+	show_debug_message(global.active_members);
+	show_debug_message(global.selected_member_index);
 }
