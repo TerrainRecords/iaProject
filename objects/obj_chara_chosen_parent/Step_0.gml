@@ -9,6 +9,7 @@ if(global.active_members[local_selected_index] != 0)
 	mbti = member_struct.mbti;
 	sprite_index = member_struct.img;
 	personal_schedule = member_struct.personal_schedule;
+	scr_add_to_schedule(personal_schedule);
 }
 
 hovering = position_meeting(device_mouse_x_to_gui(0), device_mouse_y_to_gui(0), id);

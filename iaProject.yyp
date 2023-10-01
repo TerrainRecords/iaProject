@@ -85,6 +85,7 @@
     {"id":{"name":"timeSlot01","path":"objects/timeSlot01/timeSlot01.yy",},},
     {"id":{"name":"placeholder_char","path":"sprites/placeholder_char/placeholder_char.yy",},},
     {"id":{"name":"obj_bt_stats","path":"objects/obj_bt_stats/obj_bt_stats.yy",},},
+    {"id":{"name":"scr_add_to_schedule","path":"scripts/scr_add_to_schedule/scr_add_to_schedule.yy",},},
     {"id":{"name":"spr_timelineBackground","path":"sprites/spr_timelineBackground/spr_timelineBackground.yy",},},
     {"id":{"name":"spr_back","path":"sprites/spr_back/spr_back.yy",},},
     {"id":{"name":"spr_members","path":"sprites/spr_members/spr_members.yy",},},

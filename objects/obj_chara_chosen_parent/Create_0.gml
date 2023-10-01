@@ -12,3 +12,4 @@ activate_button = function()
 	room = rm_management;
 	global.active_members[global.selected_member_index] = 0;
 }
+

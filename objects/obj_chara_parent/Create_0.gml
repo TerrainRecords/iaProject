@@ -46,6 +46,8 @@ for (var day_of_week = 0; day_of_week < 5; day_of_week++) {
 }
 show_debug_message(personal_schedule)
 
+
+
 member_struct = 
 {
 	name : name,
@@ -64,6 +66,7 @@ activate_button = function()
 		global.selected_member_index ++;
 		show_debug_message(global.active_members);
 		show_debug_message(global.selected_member_index);
+		
 	}
 	
 }
