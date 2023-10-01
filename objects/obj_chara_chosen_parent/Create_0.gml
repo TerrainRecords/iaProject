@@ -6,10 +6,6 @@ role = "";
 mbti = "";
 sprite_index = spr_char_empty;
 
-show_debug_message(global.active_members[0]);
-
-
-
 activate_button = function() 
 {
 	room = rm_management;

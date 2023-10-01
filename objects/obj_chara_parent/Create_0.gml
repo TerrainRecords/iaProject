@@ -35,15 +35,25 @@ mbti = mbti1+mbti2+mbti3+mbti4
 randomize();
 role = choose("Keys", "Guit", "Bass", "Voc", "Perc")
 
-original_x = x
-original_y = y
+randomize();
+var personal_schedule = [[]];
+
+for (var day_of_week = 0; day_of_week < 5; day_of_week++) {
+    for (var block = 0; block < 3; block++) {
+        var randomBoolean = (irandom(4) == 0); // Generate 0 or 1 and convert to boolean
+        personal_schedule[block, day_of_week] = randomBoolean;
+		//ds_grid_set(personal_schedule, x, y, randomBoolean);
+    }
+}
+show_debug_message(personal_schedule)
 
 member_struct = 
 {
 	name : name,
 	role : role,
 	img : sprite_index,
-	mbti : mbti
+	mbti : mbti,
+	personal_schedule : personal_schedule
 };
 
 activate_button = function() 

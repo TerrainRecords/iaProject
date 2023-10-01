@@ -1,15 +1,14 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if(global.active_members[0] != {})
+if(global.active_members[local_selected_index] != 0)
 {
-	self.image_alpha=0;
-	member_struct = global.active_members[0];
-	name = member_struct[$ name];
-	role = member_struct[$ role];
-	mbti = member_struct[$ mbti];
-	
-	//sprite_index = member_struct[$ img];
+	var member_struct = global.active_members[local_selected_index];
+	name = member_struct.name;
+	role = member_struct.role;
+	mbti = member_struct.mbti;
+	sprite_index = member_struct.img;
+	personal_schedule = member_struct.personal_schedule;
 }
 
 hovering = position_meeting(device_mouse_x_to_gui(0), device_mouse_y_to_gui(0), id);

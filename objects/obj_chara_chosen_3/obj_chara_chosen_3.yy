@@ -1,10 +1,12 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_chara_chosen_1",
+  "name": "obj_chara_chosen_3",
   "eventList": [],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_chara_chosen_parent","path":"objects/obj_chara_chosen_parent/obj_chara_chosen_parent.yy",},"propertyId":{"name":"local_selected_index","path":"objects/obj_chara_chosen_parent/obj_chara_chosen_parent.yy",},"value":"2",},
+  ],
   "parent": {
     "name": "characters",
     "path": "folders/Objects/characters.yy",
