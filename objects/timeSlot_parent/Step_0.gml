@@ -7,6 +7,7 @@ if ((chosen == false) && position_meeting(mouse_x, mouse_y, id) && mouse_check_b
 {
 	image_blend = c_lime;
 	chosen = true;
+	global.selected_blocks_matrix[row,column] = 1
 }
 else
 {
@@ -14,5 +15,6 @@ else
 	{
 		image_blend = -1;
 		chosen = false;
+		global.selected_blocks_matrix[row,column] = 0
 	}
 }
