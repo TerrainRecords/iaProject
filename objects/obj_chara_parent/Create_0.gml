@@ -30,7 +30,7 @@ mbti1 = choose("E", "I")
 mbti2 = choose("S", "N")
 mbti3 = choose("T", "F")
 mbti4 = choose("J", "P")
-mbti = mbti1+mbti2+mbti3+mbti4
+mbti = mbti1+mbti2+mbti3+mbti4//need a system to keep track of personality conflicts
 
 randomize();
 role = choose("Keys", "Guit", "Bass", "Voc", "Perc")

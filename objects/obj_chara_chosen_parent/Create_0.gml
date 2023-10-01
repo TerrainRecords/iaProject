@@ -11,5 +11,6 @@ activate_button = function()
 {
 	room = rm_management;
 	global.active_members[global.selected_member_index] = 0;
+	//HELP HOW DO I REMOVE A PERSON FROM SELECTION AHHHHHHHHHH
 }
 
