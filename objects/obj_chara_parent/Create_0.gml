@@ -40,8 +40,8 @@ var personal_schedule = [[]];
 
 for (var day_of_week = 0; day_of_week < 5; day_of_week++) {
     for (var block = 0; block < 3; block++) {
-        var randomBoolean = (irandom(4) == 0); // Generate 0 or 1 and convert to boolean
-        personal_schedule[block, day_of_week] = randomBoolean;
+        var randomBoolean = (irandom(5) == 0); // Generate 0 or 1 and convert to boolean
+        personal_schedule[day_of_week, block] = randomBoolean;
 		//ds_grid_set(personal_schedule, x, y, randomBoolean);
     }
 }
@@ -58,9 +58,13 @@ member_struct =
 
 activate_button = function() 
 {
-	room = rm_management;
-	global.active_members[global.selected_member_index] = member_struct;
-	global.selected_member_index ++;
-	show_debug_message(global.active_members);
-	show_debug_message(global.selected_member_index);
+	if((array_length(global.active_members)<=4) && array_any(global.active_members, function(_val, _ind){return _val == 0}))
+	{
+		room = rm_management;
+		global.active_members[global.selected_member_index] = member_struct;
+		global.selected_member_index ++;
+		show_debug_message(global.active_members);
+		show_debug_message(global.selected_member_index);
+	}
+	
 }
