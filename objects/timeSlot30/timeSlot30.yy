@@ -4,7 +4,9 @@
   "name": "timeSlot30",
   "eventList": [],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"timeSlot_parent","path":"objects/timeSlot_parent/timeSlot_parent.yy",},"propertyId":{"name":"row","path":"objects/timeSlot_parent/timeSlot_parent.yy",},"value":"3",},
+  ],
   "parent": {
     "name": "timetable",
     "path": "folders/Objects/timetable.yy",

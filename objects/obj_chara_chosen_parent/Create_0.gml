@@ -5,12 +5,10 @@ name = "";
 role = "";
 mbti = "";
 sprite_index = spr_char_empty;
+personal_schedule = [[]];
 
 activate_button = function() 
 {
 	room = rm_management;
-	global.active_members[global.selected_member_index] = member_struct;
-	global.selected_member_index ++;
-	show_debug_message(global.active_members);
-	show_debug_message(global.selected_member_index);
+	global.active_members[global.selected_member_index] = 0;
 }

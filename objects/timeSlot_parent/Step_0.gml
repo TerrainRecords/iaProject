@@ -8,6 +8,7 @@ if ((chosen == false) && position_meeting(mouse_x, mouse_y, id) && mouse_check_b
 	image_blend = c_lime;
 	chosen = true;
 	global.selected_blocks_matrix[row,column] = 1
+	show_debug_message(global.selected_blocks_matrix)
 }
 else
 {
