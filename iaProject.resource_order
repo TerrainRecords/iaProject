@@ -45,6 +45,7 @@
     {"name":"spr_char_empty","order":9,"path":"sprites/spr_char_empty/spr_char_empty.yy",},
     {"name":"obj_chara_chosen_3","order":4,"path":"objects/obj_chara_chosen_3/obj_chara_chosen_3.yy",},
     {"name":"spr_timeline","order":5,"path":"sprites/spr_timeline/spr_timeline.yy",},
+    {"name":"obj_role_counter","order":1,"path":"objects/obj_role_counter/obj_role_counter.yy",},
     {"name":"spr_char_17","order":7,"path":"sprites/spr_char_17/spr_char_17.yy",},
     {"name":"obj_bt_changePerson","order":6,"path":"objects/obj_bt_changePerson/obj_bt_changePerson.yy",},
     {"name":"spr_title","order":2,"path":"sprites/spr_title/spr_title.yy",},
