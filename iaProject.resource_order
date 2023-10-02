@@ -25,6 +25,7 @@
     {"name":"placeholders","order":7,"path":"folders/Sprites/placeholders.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+    {"name":"Information","order":8,"path":"folders/Objects/Information.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_chara_chosen_parent","order":1,"path":"objects/obj_chara_chosen_parent/obj_chara_chosen_parent.yy",},

@@ -40,7 +40,7 @@ personal_schedule = [[]];
 
 for (var day_of_week = 0; day_of_week < 5; day_of_week++) {
     for (var block = 0; block < 3; block++) {
-        var randomBoolean = (irandom(5) == 0); // Generate 0 or 1 and convert to boolean
+        var randomBoolean = (irandom(3) == 0); // Generate 0 or 1 and convert to boolean
         personal_schedule[day_of_week, block] = randomBoolean;
     }
 }

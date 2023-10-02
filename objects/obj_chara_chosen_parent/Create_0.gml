@@ -5,6 +5,7 @@ name = "";
 role = "";
 mbti = "";
 sprite_index = spr_char_empty;
+member_struct = {}
 personal_schedule = [[]];
 
 activate_button = function() 
