@@ -118,6 +118,7 @@
     {"id":{"name":"spr_char_7","path":"sprites/spr_char_7/spr_char_7.yy",},},
     {"id":{"name":"timeSlot12","path":"objects/timeSlot12/timeSlot12.yy",},},
     {"id":{"name":"spr_char_18","path":"sprites/spr_char_18/spr_char_18.yy",},},
+    {"id":{"name":"scr_performance_calculator","path":"scripts/scr_performance_calculator/scr_performance_calculator.yy",},},
     {"id":{"name":"spr_char_15","path":"sprites/spr_char_15/spr_char_15.yy",},},
     {"id":{"name":"timeSlot_parent","path":"objects/timeSlot_parent/timeSlot_parent.yy",},},
     {"id":{"name":"obj_chara_chosen_4","path":"objects/obj_chara_chosen_4/obj_chara_chosen_4.yy",},},

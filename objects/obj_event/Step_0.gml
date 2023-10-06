@@ -9,7 +9,6 @@ if(timestamp < global.week){
 }
 
 
-
 //On Click
 if ((chosen == false) && position_meeting(mouse_x, mouse_y, id) && mouse_check_button_pressed(mb_left))
 {
@@ -23,4 +22,11 @@ else
 		image_blend = -1;
 		chosen = false
 	}
+}
+
+//check when at top
+
+if(y <= 96){
+	scr_performance_calculator();
+	instance_deactivate_object(self);
 }

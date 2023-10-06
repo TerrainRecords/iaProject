@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_emptyTimeSlot",
-    "path": "sprites/spr_emptyTimeSlot/spr_emptyTimeSlot.yy",
+    "name": "spr_event",
+    "path": "sprites/spr_event/spr_event.yy",
   },
   "spriteMaskId": null,
   "visible": true,

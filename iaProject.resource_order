@@ -90,6 +90,7 @@
     {"name":"spr_char_7","order":7,"path":"sprites/spr_char_7/spr_char_7.yy",},
     {"name":"timeSlot12","order":9,"path":"objects/timeSlot12/timeSlot12.yy",},
     {"name":"spr_char_18","order":6,"path":"sprites/spr_char_18/spr_char_18.yy",},
+    {"name":"scr_performance_calculator","order":1,"path":"scripts/scr_performance_calculator/scr_performance_calculator.yy",},
     {"name":"spr_char_15","order":4,"path":"sprites/spr_char_15/spr_char_15.yy",},
     {"name":"timeSlot_parent","order":3,"path":"objects/timeSlot_parent/timeSlot_parent.yy",},
     {"name":"obj_chara_chosen_4","order":5,"path":"objects/obj_chara_chosen_4/obj_chara_chosen_4.yy",},
