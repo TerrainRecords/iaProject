@@ -35,7 +35,7 @@ mbti = mbti1+mbti2+mbti3+mbti4//need a system to keep track of personality confl
 randomize();
 role = choose("Keys", "Guit", "Bass", "Voc", "Perc")
 
-randomize();
+randomize();  
 personal_schedule = [[]];
 
 for (var day_of_week = 0; day_of_week < 5; day_of_week++) {
