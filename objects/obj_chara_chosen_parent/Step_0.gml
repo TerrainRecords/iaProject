@@ -14,6 +14,7 @@ if(global.active_members[local_selected_index] != 0 && global.active_members[loc
 	global.band_MBTI[local_selected_index, 1] = string_char_at(mbti, 2);
 	global.band_MBTI[local_selected_index, 2] = string_char_at(mbti, 3);
 	global.band_MBTI[local_selected_index, 3] = string_char_at(mbti, 4);
+	global.band_roles[local_selected_index] = role;
 }
 
 hovering = position_meeting(device_mouse_x_to_gui(0), device_mouse_y_to_gui(0), id);

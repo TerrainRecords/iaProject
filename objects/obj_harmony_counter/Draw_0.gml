@@ -5,4 +5,10 @@
 draw_set_font(fnt_role);
 draw_set_color(c_white);
 
-draw_text(x, y, mbti_score);
+draw_set_color(c_yellow);
+
+draw_text(x, y, "Harmony Score: ");
+
+draw_set_color(c_white);
+
+draw_text(x + 100, y, mbti_score);
