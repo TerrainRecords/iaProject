@@ -6,4 +6,4 @@ mbti_sum2 = 0
 mbti_sum3 = 0
 mbti_sum4 = 0
 mbti_sum = 0
-mbti_score = 0
+global.mbti_score = 0

@@ -4,6 +4,7 @@
 if(global.available_blocks_matrix[row, column] != 0)
 {
 	image_blend = c_red;
+	chosen = false;
 }
 else
 {
@@ -13,6 +14,7 @@ else
 		chosen = true;
 		global.selected_blocks_matrix[row,column] = 1
 		show_debug_message(global.selected_blocks_matrix)
+		global.practice_blocks += 1
 	}
 	else
 	{
@@ -21,7 +23,7 @@ else
 		image_blend = -1;
 		chosen = false;
 		global.selected_blocks_matrix[row,column] = 0
+		global.practice_blocks -= 1
 		}
 	}
 }
-

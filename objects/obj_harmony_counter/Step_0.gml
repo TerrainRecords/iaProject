@@ -36,4 +36,4 @@ for(var i = 0; i < 4; i++){
 
 mbti_sum = abs(mbti_sum1) + abs(mbti_sum2) + abs(mbti_sum3) + abs(mbti_sum4);
 
-mbti_score = (mbti_sum*100)/16
+global.mbti_score  = round((mbti_sum*100)/16);

@@ -27,6 +27,10 @@ else
 //check when at top
 
 if(y <= 96){
-	scr_performance_calculator();
+	if(chosen == true){
+	global.performance_num ++;
+	global.band_fans[global.performance_num] = global.band_fans[global.performance_num-1] + scr_performance_calculator(event_popularity);
+	}
+	show_debug_message(global.band_fans)
 	instance_deactivate_object(self);
 }
