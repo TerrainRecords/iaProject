@@ -8,6 +8,7 @@
     {"name":"buttons","order":5,"path":"folders/Objects/buttons.yy",},
     {"name":"characters","order":7,"path":"folders/Objects/characters.yy",},
     {"name":"information","order":8,"path":"folders/Objects/information.yy",},
+    {"name":"stats","order":10,"path":"folders/Objects/stats.yy",},
     {"name":"timeline","order":9,"path":"folders/Objects/timeline.yy",},
     {"name":"timetable","order":6,"path":"folders/Objects/timetable.yy",},
     {"name":"Particle Systems","order":14,"path":"folders/Particle Systems.yy",},
@@ -26,7 +27,6 @@
     {"name":"placeholders","order":7,"path":"folders/Sprites/placeholders.yy",},
     {"name":"Tile Sets","order":1,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":7,"path":"folders/Timelines.yy",},
-    {"name":"stats","order":10,"path":"folders/Objects/stats.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_chara_chosen_parent","order":1,"path":"objects/obj_chara_chosen_parent/obj_chara_chosen_parent.yy",},

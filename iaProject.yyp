@@ -19,6 +19,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"buttons","folderPath":"folders/Objects/buttons.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"characters","folderPath":"folders/Objects/characters.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"information","folderPath":"folders/Objects/information.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"stats","folderPath":"folders/Objects/stats.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"timeline","folderPath":"folders/Objects/timeline.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"timetable","folderPath":"folders/Objects/timetable.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Particle Systems","folderPath":"folders/Particle Systems.yy",},
@@ -38,13 +39,12 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"placeholders","folderPath":"folders/Sprites/placeholders.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"stats","folderPath":"folders/Objects/stats.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.2.106",
+    "IDEVersion": "2023.8.2.108",
   },
   "resources": [
     {"id":{"name":"obj_chara_chosen_parent","path":"objects/obj_chara_chosen_parent/obj_chara_chosen_parent.yy",},},
