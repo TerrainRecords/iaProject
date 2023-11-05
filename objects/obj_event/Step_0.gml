@@ -29,6 +29,15 @@ else
 if(y <= 96){
 	if(chosen == true){
 	global.performance_num ++;
+	
+	if(global.last_performance_week == global.week-1){
+		global.consecutive_performances ++;
+	}else{
+		global.consecutive_performances = 0;
+	}
+	
+	global.last_performance_week = global.week;
+	
 	global.band_fans[global.performance_num] = global.band_fans[global.performance_num-1] + scr_performance_calculator(event_popularity);
 	}
 	show_debug_message(global.band_fans)

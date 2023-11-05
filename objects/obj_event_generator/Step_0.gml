@@ -5,7 +5,7 @@
 if(timestamp < global.week){
 	timestamp = global.week
 	//generate event for this week
-	if(irandom(5) = 0){
+	if(irandom(4) = 0){
 		instance_create_layer(x, y-32, "Instances_1", obj_event);
 	}
 }

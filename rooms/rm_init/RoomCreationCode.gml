@@ -9,6 +9,8 @@ global.mbti_score = 0
 global.practice_blocks = 0
 global.week = 1
 global.performance_num = 0
+global.last_performance_week = 0
+global.consecutive_performances = 0
 global.band_fans = [0]
 
 room = rm_titlePage;
